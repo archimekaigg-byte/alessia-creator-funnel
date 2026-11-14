@@ -1,18 +1,17 @@
 {
   "nome": "Alessia",
-  "slug": "alessia",
-  "dominio": "https://alessialions.vip",
   "handle": "@ale_lust_",
   "bio": "A little more about me ✨",
-  "foto_a": "/images/photo-a.webp",
-  "foto_b": "/images/photo-b.webp",
+  "slug": "alessia",
+  "foto_a": "/images/photo-a-placeholder.webp",
+  "foto_b": "/images/photo-b-placeholder.webp",
   "badge_verificato": false,
   "testo_bottone_1": "more of me",
   "testo_bottone_2": "chat with me",
   "testo_pagina_2": "More of my content. Tap below to chat with me.",
   "url_destinazione": "https://www.fanvue.com/alessiaelle/fv-1",
   "url_tracker": "",
-  "link_instagram": "https://www.instagram.com/ale_lust_",
+  "link_instagram": "https://www.instagram.com/ale_lust_?srtk=MTNpc3oxemN2eWVoNQ==",
   "link_snapchat": "",
   "link_tiktok": "",
   "email_contatto": "privacy@example.com",
@@ -23,6 +22,7 @@
     "copyright": "#6b6b6b",
     "superficie": "#121212"
   },
+  "dominio": "https://alessialions.vip",
   "tracking_attivo": false,
   "turnstile_site_key": ""
 }
