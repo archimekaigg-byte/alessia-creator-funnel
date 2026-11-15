@@ -1,4 +1,18 @@
 ---
 import site from '../../config/site.config.json';
+import Layout from '../components/Layout.astro';
+import ProfileCard from '../components/ProfileCard.astro';
+import Footer from '../components/Footer.astro';
+import SocialIcons from '../components/SocialIcons.astro';
+const description = site.nome + ' (' + site.handle + '). ' + site.bio;
 ---
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="refresh" content={`0; url=/${site.slug}`}><meta name="robots" content="noindex,follow"><title>Redirecting…</title></head><body style="background:#0a0a0a;color:white;font-family:system-ui"><a href={`/${site.slug}`}>Continue to profile</a></body></html>
+<Layout title={site.nome + ' | ' + site.handle} description={description} image={site.foto_a} canonicalPath={'/' + site.slug}>
+  <main class="site-shell">
+    <div class="content">
+      <ProfileCard />
+      <div class="cta-wrap"><a class="primary-button" id="more-link" href={'/go/' + site.slug}><span>{site.testo_bottone_1}</span><span aria-hidden="true"> →</span></a></div>
+      <SocialIcons />
+    </div>
+    <Footer />
+  </main>
+</Layout>
